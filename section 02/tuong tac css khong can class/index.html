@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tuong tac css khong can class</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <div class="vuong" :style="{ backgroundColor:color }"></div>
+    <div class="vuong" :style="customStyle"></div>
+    <div class="vuong"></div>
+    <input type="text" v-model="color">
+    <input type="text" v-model="width">
+    <input type="text" v-model="height">
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            quanLyDo: false,
+            color:"gray",
+            width:100,
+            height:100
+        },
+        computed:{
+           customStyle:function () {
+               return {
+                   backgoundColor:this.color,
+                   width: this.width + 'px',
+                   height: this.height + 'px',
+               }
+           }
+        }
+
+    });
+</script>
+</body>
+</html>﻿

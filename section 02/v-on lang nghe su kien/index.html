@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vuejs- v-on lắng nghe sự kiện</title>
+
+</head>
+<body>
+<div id="obj">
+
+    <div v-on:mousemove="thayDoiToaDo">
+        <h1>Vuejs- v-on lắng nghe sự kiện</h1>
+        <button v-on:click="tangGiaTri">Ấn đi</button>
+        <button v-on:click="dem++">Ấn đi viết theo kiểu property</button>
+        <p v-on:mouseover="dungToaDo">Dừng đo tọa độ</p>
+        <p>Bắt đầu {{ dem }}</p>
+        <p>tọa độ x là:{{ x }}</p>
+        <p>tọa độ y là:{{ y }}</p>
+    </div>
+
+    <div>
+        <!-- cách thứ 2 dùng short hand     -->
+        <input type="text" @keyup.enter="banPhim">
+        <input type="text" v-model="title">
+        <p>{{ title }}</p>
+    </div>
+</div>
+
+<script src="./vue.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

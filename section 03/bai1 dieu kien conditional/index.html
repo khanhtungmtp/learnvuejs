@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Học điều kiện của vuejs</title>
+
+</head>
+<body>
+<div id="app">
+    <p>Bạn có phải đang học vuejs</p>
+    <p v-if="xacdinh">đúng rồi</p>
+    <button @click="xacdinh = !xacdinh">Trả lời</button>
+    <template v-if="xacdinh">
+        <div>menu 1</div>
+        <div>menu 2</div>
+        <div>menu 3</div>
+        <div>menu 4</div>
+    </template>
+</div>
+
+<script src="./vue.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

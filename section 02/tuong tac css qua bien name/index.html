@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BT1</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+        <div class="vuong" @click="quanLyDo =! quanLyDo" :class="{ do: quanLyDo }"></div>
+        <div class="vuong"  :class="{ do: quanLyDo }"></div>
+
+        <div class="vuong" :class="color"></div>
+        <input type="text" v-model="color">
+
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            quanLyDo: false,
+            color:"xanhcay"
+
+        },
+        computed:{
+            divClasses:function () {
+                return {
+                    do:this.quanLyDo,
+                    xanhcay: !this.quanLyDo
+                }
+            }
+        }
+
+    });
+</script>
+</body>
+</html>﻿

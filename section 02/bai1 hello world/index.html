@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chào vuejs</title>
+
+</head>
+<body>
+<div id="obj">
+    <input type="text" v-on:input="changeValue">
+    <p v-once>{{ noidung }} - {{ showPosts() }}</p>
+    <p>{{ noidung }}</p>
+    <a v-bind:href="link">My Facebook</a>
+    <p v-html="testHTML"></p>
+</div>
+
+<script src="./vue.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

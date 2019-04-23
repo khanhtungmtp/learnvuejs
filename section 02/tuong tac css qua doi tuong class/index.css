@@ -1,0 +1,19 @@
+.vuong {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: inline-block;
+    margin: 10px;
+}
+
+.do {
+    background-color: red;
+}
+
+.xanhduong {
+    background-color: blue;
+}
+
+.xanhcay {
+    background-color: green;
+}

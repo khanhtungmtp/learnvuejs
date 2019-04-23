@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So sánh computed và methods</title>
+
+</head>
+<body>
+
+<div id="app">
+    <p >Tăng a của computed: {{ tangA }}</p>
+    <p>Tăng b của computed: {{ tangB }}</p>
+    <p>Tăng a của methods: {{ tangAM() }}</p>
+    <p>Tăng b của methods: {{ tangBM() }}</p>
+    <button v-on:click="a++">Tăng a </button>
+    <button v-on:click="b++">Tăng b</button>
+</div>
+
+<script src="./vue.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

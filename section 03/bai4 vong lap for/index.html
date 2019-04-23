@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Học vòng lặp for của vuejs</title>
+
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="(menu,i) in menus">{{ menu }} với index là {{ i }}</li>
+    </ul>
+
+    <!--    sử dụng đc với alternative -->
+    <template v-for="(menu,index) in menus">
+        <h3>{{ menu }}</h3>
+        <p>{{ index }}</p>
+    </template>
+    <!--    for làm việc với đối tượng -->
+    <ul>
+        <li v-for="person in persons">
+<!--            :key để dễ quản lý, có hay ko ko quan trọng :v -->
+            <div v-for="(value,key,index) in person" :key="value">{{ index }} {{ key }} : {{ value }}</div>
+        </li>
+    </ul>
+    <button @click="menus.push('test')" >Click me</button>
+
+<!--    for lists of number-->
+    <div v-for="i in 10">{{ i }}</div>
+</div>
+
+<script src="./vue.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
