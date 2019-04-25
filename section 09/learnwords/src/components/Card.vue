@@ -7,6 +7,10 @@
     </div>
     <div class="content">
       <slot name="content"></slot>
+      <!--  slot default , có tên mặc định trong cặp thẻ slot   -->
+      <slot name="slot-default">Slot default</slot>
+      <!--  default slot là slot unsigned (ko tên)  -->
+      <slot></slot>
     </div>
   </div>
 </template>
