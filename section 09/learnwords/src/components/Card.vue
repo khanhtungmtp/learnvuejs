@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h2>Car</h2>
+    <h2>{{ cardWords }}</h2>
     <p>This is my car</p>
   </div>
 </template>
 
 <script>
   export default {
-
+  props:['cardWords']
   }
 </script>
 

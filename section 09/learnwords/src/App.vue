@@ -3,7 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <app-card>
+<!--    card-words là props bên card.vue      -->
+          <app-card card-words="Hello props">
 
           </app-card>
         </div>
