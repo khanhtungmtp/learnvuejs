@@ -5,7 +5,7 @@
         <div class="col-sm-12">
 <!--    card-words là props bên card.vue      -->
           <app-card card-words="Hello props">
-
+            <p>Giữ chỗ bên trong app-card bằng thẻ slot bên Card.Vue</p>
           </app-card>
         </div>
       </div>
