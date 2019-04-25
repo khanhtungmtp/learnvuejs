@@ -20,4 +20,7 @@
     margin: 20px auto;
     text-align: center;
   }
+  h1{
+    color: #ff3f43;
+  }
 </style>
