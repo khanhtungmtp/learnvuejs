@@ -5,8 +5,9 @@
         <div class="col-sm-12">
 <!--    card-words là props bên card.vue      -->
           <app-card card-words="Hello props">
-            <p>Giữ chỗ bên trong app-card bằng thẻ slot bên Card.Vue</p>
-            <h1>{{ whiteCard }}</h1>
+            <h1 slot="title">{{ whiteCard }}</h1>
+            <p slot="content">Giữ chỗ bên trong app-card bằng thẻ slot bên Card.Vue</p>
+
           </app-card>
         </div>
       </div>
