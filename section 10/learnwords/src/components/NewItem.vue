@@ -22,9 +22,11 @@
     },
     methods: {
       createNewItem() {
-        this.$emit('itemAdded', this.item);
-        //   cho rỗng khi đã add xong
-        this.item = '';
+        if (this.item !== ''){
+          this.$emit('itemAdded', this.item);
+          //   cho rỗng khi đã add xong
+          this.item = '';
+        }
       }
     }
   }
