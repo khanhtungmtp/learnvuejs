@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87990682-0c63-48df-a480-eee025b52a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/section 09/learnwords/src/components/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 09/learnwords/src/components/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section 09/learnwords/src/components/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 09/learnwords/src/components/Contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,38 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/components/Card.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/components/Contact.vue">
+        <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/components/About.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="297">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,6 +85,7 @@
         <option value="$PROJECT_DIR$/section 09/learnwords/src/App.vue" />
         <option value="$PROJECT_DIR$/section 09/learnwords/src/components/About.vue" />
         <option value="$PROJECT_DIR$/section 09/learnwords/src/components/Contact.vue" />
+        <option value="$PROJECT_DIR$/section 10/learnwords/src/App.vue" />
       </list>
     </option>
   </component>
@@ -139,28 +112,20 @@
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 09" type="462c0819:PsiDirectoryNode" />
+              <item name="section 10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 09" type="462c0819:PsiDirectoryNode" />
+              <item name="section 10" type="462c0819:PsiDirectoryNode" />
               <item name="learnwords" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 09" type="462c0819:PsiDirectoryNode" />
-              <item name="learnwords" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 09" type="462c0819:PsiDirectoryNode" />
+              <item name="section 10" type="462c0819:PsiDirectoryNode" />
               <item name="learnwords" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,12 +206,13 @@
       <workItem from="1556095130825" duration="2787000" />
       <workItem from="1556167714308" duration="3991000" />
       <workItem from="1556179726698" duration="5901000" />
-      <workItem from="1556247958461" duration="3287000" />
+      <workItem from="1556247958461" duration="3425000" />
+      <workItem from="1556254696910" duration="234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72163000" />
+    <option name="totallyTimeSpent" value="72541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -474,24 +440,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/components/About.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="396">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/components/About.vue">
+    <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="297">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/section 09/learnwords/src/components/Contact.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="68" />
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
