@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <app-item-layout :itemsProps="items"></app-item-layout>
+    <app-item-layout :itemsProps="items" @xoaItem="removeItem"></app-item-layout>
     <!-- @itemAdded là emit bên newItem.vue submit form gửi qua, addItem là method   -->
     <app-new-item @itemAdded="addItem"></app-new-item>
     <div class="row">
@@ -35,6 +35,10 @@
       addItem(item) {
         // thêm vào mảng items data bên trên
         this.items.push(item);
+      },
+      removeItem(index){
+        // truy cập vào mảng
+        this.items.splice(index,1);
       }
     }
   }
