@@ -5,9 +5,14 @@
 </template>
 
 <script>
-    export default {
-
+  export default {
+  // Lifecycle Hooks: destroyed, deactivated, activated
+    deactivated() {
+      console.log('deactivated about components');
+    }, activated() {
+      console.log('activated about components');
     }
+  }
 </script>
 
 <style scoped>

@@ -11,6 +11,17 @@
         return {
           counter:0
         }
+      },
+      // Lifecycle Hooks: created, destroyed, deactivated, activated
+      created(){
+        console.log('created contact components');
+      },
+      destroyed() {
+        console.log('destroyed contact components');
+      },deactivated() {
+        console.log('deactivated contact components');
+      },activated() {
+        console.log('activated contact components');
       }
     }
 </script>
