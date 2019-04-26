@@ -1,14 +1,19 @@
 <template>
-  <div>
-    <span>{{ items }}</span>
+  <div class="row">
+    <app-item v-for="item in itemsProps">{{ item }}</app-item>
   </div>
 </template>
 
 <script>
-    export default {
+  import Items from './Items.vue';
+
+  export default {
     //  hứng dữ liệu bên app.vue
-      props:['items']
+    props: ['itemsProps'],
+    components: {
+      appItem: Items
     }
+  }
 </script>
 
 <style scoped>

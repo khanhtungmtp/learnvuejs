@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87990682-0c63-48df-a480-eee025b52a83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/section 10/learnwords/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 10/learnwords/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section 10/learnwords/src/components/ItemLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 10/learnwords/src/components/ItemLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section 10/learnwords/src/components/Items.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 10/learnwords/src/components/Items.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="462">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -28,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/components/Items.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="693">
               <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/components/ItemLayout.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/section 09/learnwords/src/App.vue" />
         <option value="$PROJECT_DIR$/section 09/learnwords/src/components/About.vue" />
         <option value="$PROJECT_DIR$/section 09/learnwords/src/components/Contact.vue" />
-        <option value="$PROJECT_DIR$/section 10/learnwords/src/App.vue" />
         <option value="$PROJECT_DIR$/section 10/learnwords/src/components/Items.vue" />
+        <option value="$PROJECT_DIR$/section 10/learnwords/src/App.vue" />
         <option value="$PROJECT_DIR$/section 10/learnwords/src/components/ItemLayout.vue" />
       </list>
     </option>
@@ -238,12 +238,12 @@
       <workItem from="1556167714308" duration="3991000" />
       <workItem from="1556179726698" duration="5901000" />
       <workItem from="1556247958461" duration="3425000" />
-      <workItem from="1556254696910" duration="1266000" />
+      <workItem from="1556254696910" duration="2735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73567000" />
+    <option name="totallyTimeSpent" value="75036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -511,24 +511,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/App.vue">
+    <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/components/Items.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="693">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/components/Items.vue">
+    <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="462">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/section 10/learnwords/src/components/ItemLayout.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
