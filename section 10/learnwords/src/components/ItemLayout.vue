@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <app-item v-for="item in itemsProps">{{ item }}</app-item>
+    <app-item v-for="item in itemsProps" v-bind:data="item" v-bind:key="item">{{ item }}</app-item>
   </div>
 </template>
 
