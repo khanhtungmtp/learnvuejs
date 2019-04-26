@@ -6,7 +6,8 @@
           <textarea v-model="item" name="" id="" cols="30" rows="10"></textarea>
         </div>
         <div class="col-sm-8 sm-offset-2 col-md-6 form-group">
-          <button class="btn btn-success">Create new item</button>
+        <!--   @click.prevent ngăn ko cho load lại trang       -->
+          <button class="btn btn-success" @click.prevent="createNewItem">Create new item</button>
         </div>
       </form>
     </div>
