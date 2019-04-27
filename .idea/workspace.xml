@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87990682-0c63-48df-a480-eee025b52a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section 11/Input bind/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section 11/Input bind/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section 11/Input bind/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 11/Input bind/src/App.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section 11/Input bind/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -90,6 +91,7 @@
         <option value="$PROJECT_DIR$/section 10/learnwords/src/components/Header.vue" />
         <option value="$PROJECT_DIR$/section 10/learnwords/src/components/NewItem.vue" />
         <option value="$PROJECT_DIR$/section 10/learnwords/src/App.vue" />
+        <option value="$PROJECT_DIR$/section 11/Input bind/index.html" />
         <option value="$PROJECT_DIR$/section 11/Input bind/src/App.vue" />
       </list>
     </option>
@@ -114,32 +116,6 @@
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 08" type="462c0819:PsiDirectoryNode" />
-              <item name="bai01 giao thuc components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 08" type="462c0819:PsiDirectoryNode" />
-              <item name="bai01 giao thuc components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 08" type="462c0819:PsiDirectoryNode" />
-              <item name="bai01 giao thuc components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
@@ -242,12 +218,12 @@
       <workItem from="1556247958461" duration="3425000" />
       <workItem from="1556254696910" duration="5048000" />
       <workItem from="1556269692189" duration="6112000" />
-      <workItem from="1556333923342" duration="1146000" />
+      <workItem from="1556333923342" duration="1909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84607000" />
+    <option name="totallyTimeSpent" value="85370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -295,7 +271,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bai1 hello world/index.js" />
     <entry file="file://$PROJECT_DIR$/bai1 hello world/index.html" />
     <entry file="file://$PROJECT_DIR$/v-on lang nghe su kien/index.js" />
     <entry file="file://$PROJECT_DIR$/v-on lang nghe su kien/index.html" />
@@ -550,10 +525,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/section 11/Input bind/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/section 11/Input bind/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="127" column="29" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
         </state>
       </provider>
     </entry>
