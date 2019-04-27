@@ -7,11 +7,13 @@
           <hr>
           <div class="form-group">
             <label for="email">Mail</label>
+            <!-- $event.target.value lấy giá trị từ người dùng nhập gán vào userData.email đưa lên :value         -->
             <input
               type="text"
               id="email"
               class="form-control"
-              v-model="userData.email"
+              :value="userData.email"
+              @input="userData.email == $event.target.value"
             >
           </div>
           <div class="form-group">
