@@ -106,20 +106,22 @@
 
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 from-group">
           <label>Công tắc</label>
-          <app-custom v-model="congtac"> </app-custom>
+          <app-custom v-model="congtac"></app-custom>
         </div>
       </div>
       <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <button
-            class="btn btn-primary">Submit!
+            class="btn btn-primary"
+            @click.prevent="submited"
+          >Submit!
           </button>
         </div>
       </div>
     </form>
     <hr>
-    <div class="row">
+    <div class="row" v-if="isSubmit">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -148,6 +150,7 @@
 
 <script>
   import customControl from './components/customControl.vue';
+
   export default {
     data() {
       return {
@@ -158,14 +161,21 @@
         },
         message: 'text default',
         sendMail: [],
-        gender:'Male',
-        monhoc:['toán','lý','hóa'],
-        congtac: true
+        gender: 'Male',
+        monhoc: ['toán', 'lý', 'hóa'],
+        congtac: true,
+        isSubmit: false
 
       }
     },
-    components:{
-      appCustom:customControl
+    methods: {
+      submited() {
+        this.isSubmit = true
+      }
+    }
+    ,
+    components: {
+      appCustom: customControl
     }
   }
 </script>
