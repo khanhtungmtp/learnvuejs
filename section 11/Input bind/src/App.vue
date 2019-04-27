@@ -13,7 +13,7 @@
               id="email"
               class="form-control"
               :value="userData.email"
-              @input="userData.email == $event.target.value"
+              @input="userData.email = $event.target.value"
             >
           </div>
           <div class="form-group">
