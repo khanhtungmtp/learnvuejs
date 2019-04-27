@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87990682-0c63-48df-a480-eee025b52a83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/section 11/Input bind/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/section 11/Input bind/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section 11/Input bind/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 11/Input bind/src/App.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section 11/Input bind/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="396">
+              <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -218,12 +217,12 @@
       <workItem from="1556247958461" duration="3425000" />
       <workItem from="1556254696910" duration="5048000" />
       <workItem from="1556269692189" duration="6112000" />
-      <workItem from="1556333923342" duration="1909000" />
+      <workItem from="1556333923342" duration="2550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85370000" />
+    <option name="totallyTimeSpent" value="86011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -534,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/section 11/Input bind/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="396">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
         </state>
       </provider>
     </entry>
