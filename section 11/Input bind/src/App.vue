@@ -92,11 +92,13 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 from-group">
-          <label for="priority">Priority</label>
+          <label for="monhoc">Môn học</label>
           <select
-            id="priority"
+            id="monhoc"
             class="form-control">
-            <option></option>
+            <option v-for="mh in monhoc" v-bind:key="mh" :selected="mh == 'hóa'">
+              {{ mh }}
+            </option>
           </select>
         </div>
       </div>
@@ -128,7 +130,7 @@
               </li>
             </ul>
             <p>Gender: {{ gender }}</p>
-            <p>Priority:</p>
+            <p>Priority: </p>
             <p>Switched:</p>
           </div>
         </div>
@@ -148,7 +150,9 @@
         },
         message: 'text default',
         sendMail: [],
-        gender:'Male'
+        gender:'Male',
+        monhoc:['toán','lý','hóa']
+
       }
     }
   }
