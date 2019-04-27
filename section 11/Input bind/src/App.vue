@@ -103,6 +103,11 @@
             </option>
           </select>
         </div>
+
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 from-group">
+          <label>Công tắc</label>
+          <app-custom v-model="congtac"> </app-custom>
+        </div>
       </div>
       <hr>
       <div class="row">
@@ -132,8 +137,8 @@
               </li>
             </ul>
             <p>Gender: {{ gender }}</p>
-            <p>Priority: </p>
-            <p>Switched:</p>
+            <p>Priority: {{ monhoc }}</p>
+            <p>Switched: {{ congtac }}</p>
           </div>
         </div>
       </div>
@@ -142,6 +147,7 @@
 </template>
 
 <script>
+  import customControl from './components/customControl.vue';
   export default {
     data() {
       return {
@@ -153,9 +159,13 @@
         message: 'text default',
         sendMail: [],
         gender:'Male',
-        monhoc:['toán','lý','hóa']
+        monhoc:['toán','lý','hóa'],
+        congtac: true
 
       }
+    },
+    components:{
+      appCustom:customControl
     }
   }
 </script>
