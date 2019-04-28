@@ -11,6 +11,7 @@
         <h1>Custom Build directive</h1>
         <p v-highlight="'yellow'">Hello directives</p>
         <p v-highlight:background="'yellow'">Hello directives</p>
+        <p v-highlight:background.delayed="'yellow'">Hello directives delayed</p>
 
       </div>
     </div>
