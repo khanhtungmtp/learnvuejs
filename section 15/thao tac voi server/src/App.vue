@@ -10,6 +10,19 @@
         </div>
 
       </div>
+
+      <div class="col-sm-12">
+        <div class="form-group">
+          <h1></h1>
+          <button @click="getAllData" class="btn btn-primary">Get all data</button>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item" v-for="user in getUser">
+            {{ user.username }} - {{ user.email }}
+          </li>
+        </ul>
+
+      </div>
     </div>
   </div>
 </template>
@@ -22,7 +35,8 @@
         user:{
           username :'',
           email:''
-        }
+        },
+        getUser:[]
       }
     },
     methods:{
@@ -34,6 +48,19 @@
           },error =>{
             console.log(error)
           });
+      },
+      getAllData(){
+        this.$http.get('')
+          .then(response => {
+            return response.json();
+          }).then(data =>{
+            const newArr=[];
+            for (let key in data){
+              newArr.push(data[key]);
+            }
+            // gán mảng for đã get giá trị cho vào mảng data (this.getUser)
+            this.getUser = newArr;
+        })
       }
     }
   }
