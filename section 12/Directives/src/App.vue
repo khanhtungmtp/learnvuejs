@@ -1,10 +1,17 @@
 <template>
   <div class="container">
     <div class="row">
-      <h1>Default Build directive</h1>
-      <p v-text="'appen text in p tag'"></p>
-      <hr>
-      <p v-html="'<h1>appen html h1 tag in p tag</h1>'"></p>
+      <div class="col-sm-12">
+        <h1>Default Build directive</h1>
+        <p v-text="'appen text in p tag'"></p>
+        <hr>
+        <p v-html="'<h1>appen html h1 tag in p tag</h1>'"></p>
+      </div>
+      <div class="col-sm-12">
+        <h1>Custom Build directive</h1>
+        <p v-highlight>Hello directives</p>
+
+      </div>
     </div>
   </div>
 </template>
