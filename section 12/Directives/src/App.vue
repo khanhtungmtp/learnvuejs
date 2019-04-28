@@ -9,7 +9,7 @@
       </div>
       <div class="col-sm-12">
         <h1>Custom Build directive</h1>
-        <p v-highlight>Hello directives</p>
+        <p v-highlight="'pink'">Hello directives</p>
 
       </div>
     </div>
