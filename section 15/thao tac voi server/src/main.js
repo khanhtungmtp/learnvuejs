@@ -11,7 +11,14 @@ Vue.http.interceptors.push( (request,next) => {
   if (request.method =='POST'){
     request.method ='PUT'
   }
-  next();
+  next(response =>{
+    // gán json cho anonymous funtion
+    response.json = () =>{
+        return {
+          message: response.bodyText
+        }
+    }
+  });
 })
 new Vue({
   el: '#app',
