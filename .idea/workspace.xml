@@ -2,38 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85976d9c-52cd-43eb-9639-069e47e826e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/section 12/Directives/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/section 12/Directives/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/section 06/vueCliTest/node_modules/" />
+    <ignored path="$PROJECT_DIR$/section 08/bai01 giao thuc components/node_modules/" />
+    <ignored path="$PROJECT_DIR$/section 09/learnwords/node_modules/" />
+    <ignored path="$PROJECT_DIR$/section 10/learnwords/node_modules/" />
+    <ignored path="$PROJECT_DIR$/section 11/Input bind/node_modules/" />
+    <ignored path="$PROJECT_DIR$/section 12/Directives/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section 12/Directives/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/section 12/Directives/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/section 12/Directives/src/main.js">
+        <entry file="file://$PROJECT_DIR$/section 15/thao tac voi server/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="198">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/section 15/thao tac voi server/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -50,10 +51,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/section 12/Directives/index.html" />
-        <option value="$PROJECT_DIR$/section 12/Directives/src/App.vue" />
         <option value="$PROJECT_DIR$/section 12/Directives/src/main.js" />
+        <option value="$PROJECT_DIR$/section 12/Directives/src/App.vue" />
+        <option value="$PROJECT_DIR$/section 15/thao tac voi server/index.html" />
+        <option value="$PROJECT_DIR$/section 15/thao tac voi server/src/App.vue" />
+        <option value="$PROJECT_DIR$/section 15/thao tac voi server/src/main.js" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -74,19 +84,19 @@
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 12" type="462c0819:PsiDirectoryNode" />
+              <item name="section 15" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 12" type="462c0819:PsiDirectoryNode" />
-              <item name="Directives" type="462c0819:PsiDirectoryNode" />
+              <item name="section 15" type="462c0819:PsiDirectoryNode" />
+              <item name="thao tac voi server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vuejs" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuejs" type="462c0819:PsiDirectoryNode" />
-              <item name="section 12" type="462c0819:PsiDirectoryNode" />
-              <item name="Directives" type="462c0819:PsiDirectoryNode" />
+              <item name="section 15" type="462c0819:PsiDirectoryNode" />
+              <item name="thao tac voi server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -97,6 +107,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
   </component>
   <component name="RunDashboard">
@@ -115,10 +126,19 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85976d9c-52cd-43eb-9639-069e47e826e2" name="Default Changelist" comment="" />
+      <created>1556443315678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556443315678</updated>
+      <workItem from="1556443322600" duration="3737000" />
+      <workItem from="1556460886752" duration="231000" />
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1867000" />
+    <option name="totallyTimeSpent" value="6598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -162,11 +182,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/section 12/Directives/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="396">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -179,11 +202,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/section 12/Directives/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="494">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 15/thao tac voi server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 15/thao tac voi server/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 15/thao tac voi server/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
