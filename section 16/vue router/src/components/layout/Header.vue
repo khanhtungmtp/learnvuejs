@@ -17,19 +17,20 @@
         >
           <a class="nav-link">Home</a>
         </router-link>
-        <router-link
-          class="nav-item"
-          tag="li"
-          to="/user/10"
-          active-class="active"
-        ><a class="nav-link">User</a></router-link>
 
         <router-link
           class="nav-item"
           tag="li"
-          to="/user/1"
+          to="/user"
           active-class="active"
-        ><a class="nav-link">Admin</a></router-link>
+        ><a class="nav-link">User</a></router-link>
+
+<!--        <router-link-->
+<!--          class="nav-item"-->
+<!--          tag="li"-->
+<!--          to="/user/1"-->
+<!--          active-class="active"-->
+<!--        ><a class="nav-link">Admin</a></router-link>-->
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

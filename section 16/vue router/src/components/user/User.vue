@@ -4,7 +4,7 @@
     <button @click="backHome" class="btn btn-danger">Back to Home</button>
     <button @click="goToUser" class="btn btn-warning">Go to user details</button>
     <button @click="goToAdmin" class="btn btn-warning">Go to admin details</button>
-
+    <router-view></router-view>
   </div>
 </template>
 
