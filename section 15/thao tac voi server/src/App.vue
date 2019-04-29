@@ -30,17 +30,18 @@
 <script>
 
   export default {
-    data(){
+    data() {
       return {
-        user:{
-          username :'',
-          email:''
+        user: {
+          username: '',
+          email: ''
         },
-        getUser:[]
+        getUser: [],
+        resource: {}
       }
     },
-    methods:{
-      submit(){
+    methods: {
+      submit() {
         // console.log(this.user)
         this.$http.post("",this.user)
           .then(response =>{
@@ -48,19 +49,27 @@
           },error =>{
             console.log(error)
           });
+       // this.resource.createItem(this.user)
       },
-      getAllData(){
+      getAllData() {
         this.$http.get('')
           .then(response => {
             return response.json();
-          }).then(data =>{
-            const newArr=[];
-            for (let key in data){
-              newArr.push(data[key]);
-            }
-            // gán mảng for đã get giá trị cho vào mảng data (this.getUser)
-            this.getUser = newArr;
+          }).then(data => {
+          const newArr = [];
+          for (let key in data) {
+            newArr.push(data[key]);
+          }
+          // gán mảng for đã get giá trị cho vào mảng data (this.getUser)
+          this.getUser = newArr;
         })
+      },
+      created() {
+        const customResource = {
+          createItem: {method: 'POST', url: 'user.json'}
+        }
+        // url tới database bằng resource
+        this.resource = Vue.resource('data.json', {}, customResource)
       }
     }
   }
