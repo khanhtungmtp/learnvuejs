@@ -1,16 +1,18 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <h1>Vue routing</h1>
+  <div>
+    <page-header></page-header>
+    <div class="container">
       <router-view/>
     </div>
   </div>
 </template>
 
 <script>
-
+import PageHeader from './components/layout/Header'
   export default {
-
+    components:{
+      PageHeader
+    }
   }
 </script>
 

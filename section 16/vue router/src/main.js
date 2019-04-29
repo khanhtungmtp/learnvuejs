@@ -6,7 +6,7 @@ import VueRouter from 'vue-router'
 import { routes } from "./routes.js";
 
 Vue.use(VueRouter)
-
+// global router
 const router = new VueRouter({
   routes
 })
