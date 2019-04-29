@@ -1,26 +1,19 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueResource from 'vue-resource'
 
-Vue.use(VueResource);
-Vue.http.options.root = "https://learnvuejs-76db0.firebaseio.com/data.json"
+import VueRouter from 'vue-router'
+// do là đối tượng nên có { }
+import { routes } from "./routes.js";
 
-Vue.http.interceptors.push( (request,next) => {
-  console.log(request);
-  // nếu request là post thì can thiệp đổi thành put (Tức là update)
-  if (request.method =='POST'){
-    request.method ='PUT'
-  }
-  next(response =>{
-    // gán json cho anonymous funtion
-    response.json = () =>{
-        return {
-          message: response.bodyText
-        }
-    }
-  });
+Vue.use(VueRouter)
+
+const router = new VueRouter({
+  routes
 })
+
+
 new Vue({
   el: '#app',
+  router,
   render: h => h(App)
 })
