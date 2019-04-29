@@ -6,5 +6,5 @@ import UserDetail from './components/user/UserDetail.vue';
 export const routes = [
   {path: '/', name: 'homepage', component: Home},
   {path: '/user', name: 'user', component: User},
-  {path: '/user/:id', name: 'user-detail', component: UserDetail},
+  {path: '/user/:id', name: 'userdetails', component: UserDetail},
 ]
