@@ -1,12 +1,17 @@
 <template>
   <div>
     <h1>User page</h1>
+    <button @click="backHome" class="btn btn-danger">Back to Home</button>
   </div>
 </template>
 
 <script>
     export default {
-        name: "User"
+        methods:{
+          backHome(){
+            this.$router.push('/')
+          }
+        }
     }
 </script>
 
