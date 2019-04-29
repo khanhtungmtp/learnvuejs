@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85976d9c-52cd-43eb-9639-069e47e826e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/section 16/vue router/src/components/layout/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 16/vue router/src/components/layout/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section 16/vue router/src/components/user/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 16/vue router/src/components/user/User.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section 16/vue router/src/components/user/UserEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 16/vue router/src/components/user/UserEdit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section 16/vue router/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/section 16/vue router/src/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/section 06/vueCliTest/node_modules/" />
     <ignored path="$PROJECT_DIR$/section 08/bai01 giao thuc components/node_modules/" />
@@ -73,16 +69,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="494">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 16/vue router/src/components/user/UserEdit.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="33">
@@ -133,9 +129,9 @@
         <option value="$PROJECT_DIR$/section 16/vue router/src/App.vue" />
         <option value="$PROJECT_DIR$/section 16/vue router/src/routes.js" />
         <option value="$PROJECT_DIR$/section 16/vue router/src/components/user/User.vue" />
-        <option value="$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue" />
         <option value="$PROJECT_DIR$/section 16/vue router/src/components/layout/Header.vue" />
         <option value="$PROJECT_DIR$/section 16/vue router/src/components/user/UserEdit.vue" />
+        <option value="$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue" />
       </list>
     </option>
   </component>
@@ -235,12 +231,12 @@
       <workItem from="1556507064389" duration="7595000" />
       <workItem from="1556523843845" duration="2308000" />
       <workItem from="1556527905047" duration="309000" />
-      <workItem from="1556553428665" duration="1488000" />
+      <workItem from="1556553428665" duration="1996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23385000" />
+    <option name="totallyTimeSpent" value="23893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -406,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/section 16/vue router/src/components/layout/Header.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -424,6 +413,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 16/vue router/src/components/user/UserBegin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
