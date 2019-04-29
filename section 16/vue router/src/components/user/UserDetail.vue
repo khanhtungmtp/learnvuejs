@@ -11,6 +11,12 @@
       return {
         id: this.$route.params.id
       }
+    },
+    // theo dõi sự thay đổi id
+    watch:{
+      '$route'(to,from){
+        this.id=to.params.id
+      }
     }
   }
 </script>
