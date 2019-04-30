@@ -5,6 +5,7 @@ import User from './components/user/User.vue';
 import UserDetail from './components/user/UserDetail.vue';
 import UserStart from './components/user/UserBegin';
 import UserEdit from './components/user/UserEdit';
+import Error from './components/404';
 
 export const routes = [
   {
@@ -20,6 +21,8 @@ export const routes = [
       {path: ':id/edit', name: 'useredit', component: UserEdit},
     ]
   },
-  {path: '/auth-redirect', redirect: {name: 'homepage'}}
+  {path: '/auth-redirect', redirect: {name: 'homepage'}},
+  {path: '/404', name: 'errorpage', component: Error},
+  {path: '*', redirect: '/404'}
 
 ]
