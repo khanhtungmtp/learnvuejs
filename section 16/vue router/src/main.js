@@ -8,6 +8,8 @@ import { routes } from "./routes.js";
 Vue.use(VueRouter)
 // global router
 const router = new VueRouter({
+  // để xem # trên trình duyệt là 1 hash fragments, ko phải ảo
+  mode:'history',
   routes
 })
 
