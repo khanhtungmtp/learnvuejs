@@ -25,7 +25,7 @@
             locate: 'vi',
             browser: 'chrome'
           },
-          hash:'#helloFragment'
+          hash: '#helloFragment'
         }
       }
     },
@@ -33,6 +33,14 @@
     watch: {
       '$route'(to, from) {
         this.id = to.params.id
+      }
+    },
+    beforeRouteEnter(to, from, next) {
+      // nếu có quyền mới đc vào route
+      if (false) {
+        next();
+      } else {
+        next(false);
       }
     }
   }

@@ -5,7 +5,7 @@ import VueRouter from 'vue-router'
 // do là đối tượng nên có { }
 import {routes} from "./routes.js";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 // global router
 const router = new VueRouter({
   // để xem # trên trình duyệt là 1 hash fragments, ko phải ảo
@@ -21,11 +21,17 @@ const router = new VueRouter({
       return {selector: to.hash}
     }
   }
-})
+});
 
+// arrow function, mõi 1 lần trước khi chạy (beforeEach)
+router.beforeEach((to,from,next)=>{
+  console.log('guard global');
+  // phải có next mới chạy tiếp theo đc
+  next();
+});
 
 new Vue({
   el: '#app',
   router,
   render: h => h(App)
-})
+});

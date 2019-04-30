@@ -17,7 +17,10 @@ export const routes = [
   {
     path: '/user', name: 'user', component: User, children: [
       {path: '', name: 'index', component: UserStart},
-      {path: ':id', name: 'userdetails', component: UserDetail},
+      {path: ':id', name: 'userdetails', component: UserDetail,beforeEnter:(to,from,next)=>{
+          console.log('action guard useredit');
+          next();
+        }},
       {path: ':id/edit', name: 'useredit', component: UserEdit},
     ]
   },
