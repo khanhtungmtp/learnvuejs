@@ -1,5 +1,5 @@
 <template>
-    <p>this is {{ $store.state.result }}</p>
+    <p>this is {{ result }}</p>
 </template>
 
 <script>
@@ -9,7 +9,8 @@
       computed:{
         result(){
           // truy cập vào result trong store.js, this.$store.state là model
-          this.$store.state.result
+          // this.$store.state.result
+         return  this.$store.getters.tenResult;
         }
       }
     }

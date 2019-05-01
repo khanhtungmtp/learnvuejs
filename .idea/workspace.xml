@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85976d9c-52cd-43eb-9639-069e47e826e2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section 17/vuex/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 17/vuex/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section 17/vuex/src/components/Result.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 17/vuex/src/components/Result.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section 17/vuex/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/section 17/vuex/src/store/store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/section 06/vueCliTest/node_modules/" />
     <ignored path="$PROJECT_DIR$/section 08/bai01 giao thuc components/node_modules/" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Result.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="15" lean-forward="true" selection-end-line="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -34,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Other.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="462">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="227">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -55,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="198">
               <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="326">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#425#470#0" expanded="true" />
               </folding>
@@ -120,12 +120,12 @@
         <option value="$PROJECT_DIR$/section 16/vue router/src/components/user/UserEdit.vue" />
         <option value="$PROJECT_DIR$/section 16/vue router/src/routes.js" />
         <option value="$PROJECT_DIR$/section 17/vuex/index.html" />
-        <option value="$PROJECT_DIR$/section 17/vuex/src/store/store.js" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/main.js" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue" />
-        <option value="$PROJECT_DIR$/section 17/vuex/src/components/Result.vue" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/components/Other.vue" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/App.vue" />
+        <option value="$PROJECT_DIR$/section 17/vuex/src/components/Result.vue" />
+        <option value="$PROJECT_DIR$/section 17/vuex/src/store/store.js" />
       </list>
     </option>
   </component>
@@ -236,12 +236,12 @@
       <workItem from="1556640999966" duration="1955000" />
       <workItem from="1556677828649" duration="2903000" />
       <workItem from="1556685188263" duration="3814000" />
-      <workItem from="1556697790887" duration="980000" />
+      <workItem from="1556697790887" duration="2441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45119000" />
+    <option name="totallyTimeSpent" value="46580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -259,7 +259,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -467,26 +467,6 @@
         <state relative-caret-position="-198" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/store/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -494,27 +474,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Result.vue">
+    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="15" lean-forward="true" selection-end-line="20" />
+        <state relative-caret-position="198">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Other.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="462">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/section 17/vuex/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="326">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#425#470#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Result.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
