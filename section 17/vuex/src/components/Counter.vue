@@ -15,11 +15,14 @@
         // this.$emit('updateCounter',1)
         //  cách 1 dùng event bus của vuejs
         //  cách 2 dùng store của vuex
-        this.$store.state.result++
+        // this.$store.state.result++
+      //cách 3 dùng Mutations
+        this.$store.commit("incrementsOp",40)
       },
       decrement() {
         // this.$emit('updateCounter',-1)
-        this.$store.state.result--
+        // this.$store.state.result--
+        this.$store.commit("incrementsOp",-10)
       }
     }
   }

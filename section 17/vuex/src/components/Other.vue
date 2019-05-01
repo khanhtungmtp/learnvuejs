@@ -16,8 +16,6 @@
       otherFunctionOnComputed(){
       //  xài thêm hàm khác nếu có
       }
-
-
       // result(){
       //   // truy cập vào result trong store.js, this.$store.state là model
       //   this.$store.state.result

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85976d9c-52cd-43eb-9639-069e47e826e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section 17/vuex/src/components/Other.vue" beforeDir="false" afterPath="$PROJECT_DIR$/section 17/vuex/src/components/Other.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section 17/vuex/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/section 17/vuex/src/store/store.js" afterDir="false" />
     </list>
@@ -31,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Other.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="-430">
+              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -76,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="329">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -121,11 +122,11 @@
         <option value="$PROJECT_DIR$/section 16/vue router/src/routes.js" />
         <option value="$PROJECT_DIR$/section 17/vuex/index.html" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/main.js" />
-        <option value="$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/App.vue" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/components/Result.vue" />
-        <option value="$PROJECT_DIR$/section 17/vuex/src/store/store.js" />
         <option value="$PROJECT_DIR$/section 17/vuex/src/components/Other.vue" />
+        <option value="$PROJECT_DIR$/section 17/vuex/src/store/store.js" />
+        <option value="$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue" />
       </list>
     </option>
   </component>
@@ -236,12 +237,12 @@
       <workItem from="1556640999966" duration="1955000" />
       <workItem from="1556677828649" duration="2903000" />
       <workItem from="1556685188263" duration="3814000" />
-      <workItem from="1556697790887" duration="3532000" />
+      <workItem from="1556697790887" duration="4762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47671000" />
+    <option name="totallyTimeSpent" value="48901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -474,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/section 17/vuex/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -501,20 +495,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Other.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/section 17/vuex/src/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="-430">
+          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Other.vue">
+    <entry file="file://$PROJECT_DIR$/section 17/vuex/src/components/Counter.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="329">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
