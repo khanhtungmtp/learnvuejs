@@ -19,6 +19,9 @@ export const store = new Vuex.Store({
   mutations: {
     incrementsOp(state, n) {
       state.result += n;
+    },
+    decrement(state){
+      state.result--
     }
   }
 });
