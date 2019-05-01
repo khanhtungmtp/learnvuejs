@@ -10,6 +10,9 @@ export const store=new Vuex.Store({
     // state là 1 parameter của arrow function
     tenResult: state => {
       return state.result * 10;
+    },
+    otherResult: state => {
+      return state.result + '  mapGetter array push es2015'
     }
   }
 });
