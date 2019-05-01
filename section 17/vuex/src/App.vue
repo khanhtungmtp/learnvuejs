@@ -2,10 +2,15 @@
   <div id="app">
     <h1>vuex section</h1>
     <hr>
-    <app-counter @updateCounter="result += $event"></app-counter>
+    <!-- cách 1 dùng event bus của vuejs  -->
+    <!--    <app-counter @updateCounter="result += $event"></app-counter>-->
+    <!-- cách 2 dùng store của vuex   -->
+    <app-counter></app-counter>
     <hr>
+
     <!-- lấy từ props result  -->
-    <app-result :result="result"></app-result>
+    <!--    <app-result :result="result"></app-result>-->
+    <app-result></app-result>
   </div>
 </template>
 
@@ -14,12 +19,12 @@
   import appResult from './components/Result'
 
   export default {
-    name: 'app',
-    data() {
-      return {
-        result: 0
-      }
-    },
+    // name: 'app',
+    // data() {
+    //   return {
+    //     result: 0
+    //   }
+    // },
     components: {
       appCounter, appResult
     }
