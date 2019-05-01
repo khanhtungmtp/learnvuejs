@@ -10,6 +10,7 @@
 
     <!-- lấy từ props result  -->
     <!--    <app-result :result="result"></app-result>-->
+    <app-other></app-other>
     <app-result></app-result>
   </div>
 </template>
@@ -17,6 +18,7 @@
 <script>
   import appCounter from './components/Counter'
   import appResult from './components/Result'
+  import appOther from './components/Other'
 
   export default {
     // name: 'app',
@@ -26,7 +28,7 @@
     //   }
     // },
     components: {
-      appCounter, appResult
+      appCounter, appResult, appOther
     }
   }
 </script>
