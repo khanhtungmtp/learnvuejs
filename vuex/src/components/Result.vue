@@ -11,7 +11,10 @@
             // computed là chạy trước khi load
             // $store đại diện cho đối tượng new Vuex.Store sao đó truy cập > state > count
             result () {
-                return this.$store.state.count
+                // lấy bằng state
+                // return this.$store.state.count
+            //    lấy bằng getter
+                return this.$store.getters.ResultGetter
             }
         }
     }
