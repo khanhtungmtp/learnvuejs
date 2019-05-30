@@ -11,7 +11,9 @@
         methods: {
             // $store đại diện cho đối tượng new Vuex.Store sao đó truy cập > state > count
             tang () {
-                this.$store.state.count++
+                // this.$store.state.count++
+            //    tăng tùy chọn theo số lương dùng mutations
+                this.$store.commit('tangTuyChon', 50)
             },
             giam () {
                 this.$store.state.count--

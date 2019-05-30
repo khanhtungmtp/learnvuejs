@@ -15,5 +15,11 @@ export const store = new Vuex.Store({
         OtherResultGetter (state) {
             return state.count + "  this is OtherResultGetter"
         }
+    },
+    mutations: {
+        // mutations là giải pháp của getters, hoặc state
+        tangTuyChon (state, n) {
+            return state.count += n
+        }
     }
 })
