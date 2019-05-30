@@ -20,8 +20,11 @@ export const store = new Vuex.Store({
     incrementsOp(state, n) {
       state.result += n;
     },
-    decrement(state){
+    decrement(state) {
       state.result--
+    },
+    updateValue: (state, payload) => {
+      state.value = payload;
     }
   }
 });
